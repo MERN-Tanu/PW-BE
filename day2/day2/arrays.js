@@ -45,60 +45,57 @@ console.log(arr)
 arr.unshift(9,99,999)
 console.log(arr)  */
 
-
 /**
  * Removing elements
- * 
+ *
  */
 
 //pop method
-let arr = [5,7,1,9,8,16]
+let arr = [5, 7, 1, 9, 8, 16];
 
-console.log(arr.pop())
-console.log(arr)
+console.log(arr.pop());
+console.log(arr);
 
 //shift
-console.log(arr.shift())
-console.log(arr)
+console.log(arr.shift());
+console.log(arr);
 
 //concat
 
-let a1 = [1,2,3]
-let a2 = [5,6]
+let a1 = [1, 2, 3];
+let a2 = [5, 6];
 
-let r = a1.concat(a2)
-console.log(r)
+let r = a1.concat(a2);
+console.log(r);
 
 //size of the arr
-console.log(a1.length)
+console.log(a1.length);
 
 /**
  * Convert array into strings
  */
-chr_arr = ['V', 'i','s', 'h','w','a',' ', 'M','o','h','a','n']
+// chr_arr = ['V', 'i','s', 'h','w','a',' ', 'M','o','h','a','n']
 
 //join
-console.log(chr_arr.join())
-console.log(chr_arr.join(""))
-console.log(chr_arr.join('$'))
+// console.log(chr_arr.join())
+// console.log(chr_arr.join(""))
+// console.log(chr_arr.join('$'))
 
-console.log(typeof chr_arr.toString())
-
+// console.log(typeof chr_arr.toString())
 
 /**
  * Slicing of the array
  */
 
-/** let nums = [3,4,5,5,6,7,9,11,13,12,10]
+let nums = [3, 4, 5, 5, 6, 7, 9, 11, 13, 12, 10];
 
-console.log(nums.slice(2))
-console.log(nums.slice(2,7))
-console.log(nums.slice(5,-1))
-console.log(nums.slice(-9,-2))
-console.log(nums.slice(2,-1))
+console.log(nums.slice(2));
+console.log(nums.slice(2, 7));
+console.log(nums.slice(5, -1));
+console.log(nums.slice(-9, -2));
+console.log(nums.slice(2, -1));
 
-console.log(nums) **/
-
+console.log(nums);
 
 /**
  * Splicing , which modifies the given array
@@ -107,7 +104,6 @@ let numbers = [1,2,3,4,5]
 let removed = numbers.splice(2,2,11,12,13)
 console.log(removed)
 console.log(numbers) **/
-
 
 /**
  * Reverse a given array
@@ -120,15 +116,13 @@ console.log(nums)
 let nums  = [4,1,5,7,19,2]
 console.log(nums.indexOf(21)) */
 
-
 /**
  * sorting the array
  */
-let my_arr = [15,40,1,13,2]
-
+let my_arr = [15, 40, 1, 13, 2];
 
 //my_arr.sort((a,b)=> a-b)
 
-my_arr.sort((a,b)=> b-a)
+my_arr.sort((a, b) => b - a);
 
-console.log(my_arr)
+console.log(my_arr);
